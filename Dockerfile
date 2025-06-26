@@ -1,4 +1,4 @@
 FROM openjdk:17
-COPY invoice.jar invoice.jar
+COPY invoice1.jar invoice1.jar
 EXPOSE 8000
-ENTRYPOINT ["java", "-Xmx256m", "-Xms128m", "-jar", "invoice.jar"]
+ENTRYPOINT ["java", "-Xmx256m", "-Xms128m", "-jar", "invoice1.jar"]
